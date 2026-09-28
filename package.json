@@ -1,0 +1,23 @@
+{
+  "name": "mf-ltcg-analyzer",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "@sveltejs/vite-plugin-svelte": "^2.0.0",
+    "svelte": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0",
+    "papaparse": "^5.0.0",
+    "xlsx": "^0.18.0",
+    "file-saver": "^2.0.5"
+  }
+}
